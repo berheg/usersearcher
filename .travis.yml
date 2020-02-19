@@ -9,6 +9,7 @@ script:
   npm run build
 deploy:
   provider: pages
+  edge: true
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: build
