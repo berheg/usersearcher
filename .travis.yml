@@ -12,6 +12,6 @@ deploy:
   edge: true
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: build
+  local_dir: sabbatical-hugo/public
   on:
     branch: master
